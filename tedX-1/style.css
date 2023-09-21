@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Arial';
+}
+
+.nav-bar{
+    height: 10%;
+    background-color: black;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.nav-bar img{
+    margin: auto;
+}
+
+.nav-bar ul li{
+    list-style-type: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: ivory;
+    margin: auto 1rem;
+}
+
+.nav-bar img#logo_2{
+    height: 3rem;
+}
+
+.nav-bar a#register{
+    color: #ff0000;
+}
+
+/* ############ MAIN PAGE ############# */
+
+.main{
+    background: url(./images.png);
+    height: 43.5rem;
+    color: ivory;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.main img{
+    height: 15rem;
+    position: relative;
+}
+
+.main h2{
+    color: ivory;
+    font-weight: 400;
+}
+
+.main h2#main-wrapper-line1{
+    letter-spacing: 0.15rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.main .main-wrapper{
+    text-align: center;
+    display: flex;
+    font-weight: 400;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border: 0.15rem solid ivory;
+    width: 30rem;
+    height: 10rem;
+    margin: 1rem auto 2rem auto;
+}
+
+.extra-info{
+    margin-top: -50rem;
+}
+
+.date h1,
+.location h2{
+    margin-bottom: 1rem;
+}
+
+.date{
+    border-right: 0.15rem solid ivory;
+    padding-right: 1.25rem;
+}
+
+h2#time-left{
+    color: #C7751E;
+}
+
+/* ############ BANNER ############# */
+.banner{
+    background: url(./images2.png);
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem auto;
+    flex-wrap: wrap;
+}
+
+.ct-1-txt{
+    color: #10125C;
+}
+
+.ct-2-txt{
+    color: #A51100;
+}
+
+.ct-3-txt{
+    color: #F2810B;
+}
+
+.ct-4-txt{
+    color: #2A6543;
+}
+
+.ct-1,
+.ct-2, .ct-3, .ct-4{
+    margin: 5rem 0;
+    width: 20rem;
+    border-right: 0.25rem solid black;
+    padding: 0 2.5rem;
+}
+
+/* ############## ABOUT US ############# */
+.about-us{
+    background: url(./images.png);
+    text-align: center;
+    color: ivory;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    padding: 5rem 8rem;
+}
+
+.about-us h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 0 5rem 0;
+}
+
+.about-us img{
+    height: 30rem;
+    padding: 6rem 0;
+}
+
+.info-about{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.text-about{
+    width: 40rem;
+}
+
+.img-about{
+    width: 30rem;
+}
+
+/* ############## SPEAKER PAGE ################## */
+.speaker-sec{
+    background: url(./images2.png);
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    padding: 5rem 8rem;
+}
+
+.speaker-sec h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 0 5rem 0;
+}
+
+.speaker-sec .speaker-info,
+.speaker-sec .performer-info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.speaker-info div,
+.performer-info div{
+    width: 20rem;
+    margin: 3rem 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.speaker-sec img{
+    width: 20rem;
+    margin-top: 1rem;
+}
+
+/* ################ SPONSORS ################ */
+.sponsors{
+    background: url(./images.png);
+    color: ivory;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    padding: 3rem 5rem;
+}
+
+.sponsors .sponsor-logos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sponsors h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 0 5rem 0;
+}
+
+.sponsor-logos div img{
+    width: 15rem;
+}
+
+.sponsor-logos div{
+    width: 15rem;
+    background-color: ivory;
+    margin-bottom: 1.5rem;
+}
+
+.sponsors a{
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: ivory;
+    border: 3px solid #C7751E;
+    border-radius: 2rem;
+    padding: 0.5rem 5rem;
+    background-color: #212223;
+    display: inline-block;
+    margin-top: 5rem;
+}
+
+/* ################# FOOTER ############# */
+.footer{
+    background: url(./images2.png);
+    color: black;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    padding: 7rem 5rem 0 5rem;
+}
+
+.footer h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 2rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer img{
+    height: 11rem;
+}
+
+.footer a#contact,
+.footer a#register{
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: ivory;
+    border: 3px solid #C7751E;
+    border-radius: 2rem;
+    padding: 0.5rem 3rem;
+    background-color: #212223;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.center-footer{
+    text-align: center;
+}
+
+.foot-bar{
+    margin: 2rem auto;
+}
+
+.foot-bar ul li{
+    list-style-type: none;
+    width: 15rem;
+    font-weight: 700;
+}
+
+.foot-bar a{
+    margin-right: 4rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.foot-bar ul{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer img#tedx-black{
+    width: 30rem;
+    height: 3rem;
+    margin: 1rem auto;
+}
+
+.socials img{
+    height: 2rem;
+    opacity: 0.8;
+    margin: 2rem 0.5rem;
+}
